@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Web Prog II | Merancang Template sederhana dengan
-        codeigniter</title>
+    <title><?= $judul ?></title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() 
 ?>assets/css/stylebuku.css">
 
@@ -24,6 +23,8 @@
                                     base_url() . 'index.php/web' ?>”>Home</a></li>
                     <li><a href=”<?php echo
                                     base_url() . 'index.php/web/about' ?>”>About</a></li>
+                    <li><a href=”<?php echo
+                                    base_url() . 'index.php/web/form' ?>”>form</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
